@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Навигация</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+</head>
+
+
+<body>
+	<div class="nav">
+		<div class="container">
+			<ul class="nav__list">
+				<a href="index.html">Главная</a>
+				<a href="equipment.html">Оборудование</a>
+			</ul>
+			<button class="nav-btn btn-green" data-modal="contactModal">Модальное окно</button>
+
+		</div>
+	</div>
+
+	<div class="modal" id="contactModal">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M8.81034 10.2624L15.6539 16.8036L17.0358 15.3578L10.2576 8.8791L17.0358 2.40038L15.6539 0.95459L8.81034 7.49577L1.96682 0.95459L0.5849 2.40038L7.36307 8.8791L0.5849 15.3578L1.96682 16.8036L8.81034 10.2624Z" fill="white"/>
+				</svg>
+			</button>
+			<div class="modal__content">
+				<h2 class="modal__title display2"><span>обрат</span>ная связь</h2>
+				<form class="modal__form form">
+					<div class="modal__form-top">
+						<fieldset class="modal__form-group form-group">
+							<input type="text" placeholder="Ваше имя">
+						</fieldset>
+						<fieldset class="modal__form-group form-group">
+							<input type="tel" placeholder="Ваш телефон">
+						</fieldset>
+					</div>
+					<div class="modal__form-bottom">
+						<fieldset class="modal__form-group form-group">
+							<div class="modal__form-check">
+								<input type="checkbox">
+								<label for="">Даю согласие на обработку <br> персональных данных</label>
+							</div>
+						</fieldset>
+						<fieldset class="modal__form-group form-group">
+							<button class="modal__form-btn btn-green">Отправить</button>
+						</fieldset>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
