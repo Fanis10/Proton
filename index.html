@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+    <div class="header__wrapp">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__inner">
+                    <div class="header-top__left">
+                        <a class="header-top__logo" href="">
+                            <img src="img/logo.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="header-top__right">
+                        <div class="header-top__socials">
+                            <div class="header-top__social">
+                                <span class="header-top__social-title">Телефон</span>
+                                <a class="header-top__social-link header-top__social-tel" href="tel:8 (4872) 25-05-87">8 (4872) 25-05-87</a>
+                            </div>
+                            <div class="header-top__social">
+                                <span class="header-top__social-title">Адрес</span>
+                                <a class="header-top__social-link header-top__social-location" href="">г. Тула, ул. Болдина, д.98а</a>
+                            </div>
+                            <div class="header-top__social">
+                                <span class="header-top__social-title">Почта</span>
+                                <a class="header-top__social-link header-top__social-mail" href="mailto:proton_tula@mail.ru">proton_tula@mail.ru</a>
+                            </div>
+                        </div>
+                        <button class="header-top__btn btn-green">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__inner">
+                    <div class="header-bottom__logo-menu">
+                        <span>меню</span>
+                    </div>
+                    <img class="header-bottom__img" src="img/menu-img.webp" alt="">
+                    <ul class="header-bottom__list">
+                        <li class="header-bottom__link"><a href="">главная</a></li>
+                        <li class="header-bottom__link"><a href="">о компании</a></li>
+                        <li class="header-bottom__link header-bottom__link2">
+                            <div class="header-bottom__show">
+                                <span>оборудование</span>
+                                <i><svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4L0 0H8L4 4Z" fill="white"/>
+                                </svg>
+                                </i>
+                            </div>
+                            <div class="header-bottom__hidden">
+                                <div class="header-bottom__hidden-inner">
+                                    <div class="header-bottom__hidden-titles">
+                                        <div class="header-bottom__hidden-title">Рентгеновское оборудование</div>
+                                        <div class="header-bottom__hidden-title">Ультразвуковые сканеры</div>
+                                    </div>
+                                    <div class="header-bottom__items">
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Комплекс рентгеновский диагностический «КРД–«ПРОТОН»
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment2.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 30»
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment3.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Комплекс рентгенографический палатный передвижной
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment4.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 50»
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment5.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Рентгеновские урологические системы
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment6.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 40»
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment7.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Флюорограф цифровой
+                                            </div>
+                                        </a>
+                                        <a href="" class="header-bottom__item">
+                                            <div class="header-bottom__item-img">
+                                                <img src="img/equipment8.webp" alt="">
+                                            </div>
+                                            <div class="header-bottom__item-desc">
+                                                Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 70»
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header-bottom__link"><a href="">услуги</a></li>
+                        <li class="header-bottom__link"><a href="">цифровая модернизация</a></li>
+                        <li class="header-bottom__link"><a href="">контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-mob">
+        <div class="container">
+            <div class="header-mob__inner">
+                <a href="index.html" class="header-mob__logo">
+                    <img src="img/logo.webp" alt="">
+                </a>
+                <div class="header-mob__burger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+		<main class="content">
+			<div class="sidebar">
+				<div class="sidebar__inner">
+					<a class="sidebar__basket" href="">
+						<img src="img/basket.svg" alt="">
+						<span>0</span>
+					</a>
+					<button class="sidebar__search">
+						<img src="img/search.svg" alt="">
+					</button>
+					<img class="sidebar__img-mob" src="img/sidebar-mob.webp" alt="">
+					<div class="sidebar__languages">
+						<a class="sidebar__language sidebar__language--active" href="">РУС</a>
+						<a class="sidebar__language" href="">ENG</a>
+					</div>
+					<img class="sidebar__img" src="img/sidebar.webp" alt="">
+					<button class="sidebar__btn btn-green">
+						<span>Бесплатная консультация</span>
+					</button>
+				</div>
+			</div>
+			<section class="main">
+				<img class="main__img-bg" src="img/main-bg2.webp" alt="">
+				<div class="container">
+					<div class="main__inner">
+						<div class="main__left">
+							<div class="main__subtitle">Производство и поставка</div>
+							<h1 class="main__title">современного медицинского оборудования</h1>
+							<div class="main__info">для рентгеновских <br> исследований</div>
+						</div>
+						<div class="main__right">
+							<div class="main__img">
+								<img src="img/main.webp" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="equipment">
+				<img class="equipment__img-bg" src="img/equipment-bg.webp" alt="">
+				<img class="equipment__img-bg2" src="img/equipment-bg.webp" alt="">
+				<img class="equipment__img-bg3" src="img/bg-block5.webp" alt="">
+				<div class="container">
+					<div class="equipment__inner">
+						<h2 class="equipment__title display2"><span>наше</span> оборудование</h2>
+						<div class="equipment__cards">
+							<div class="equipment__cards-top">
+                                <div class="equipment__cards-title">Рентгеновское оборудование</div>
+                                <div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Комплекс рентгеновский <br> диагностический «КРД-«ПРОТОН»
+        </div>
+        <ul class="equipment__card-list">
+            <li>размер деки, не менее (2100 х 750) мм;</li><li>продольное перемещение деки, не менее ± 450 мм;</li><li>поперечное перемещение деки, не менее ± 100 мм;</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card2.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Рентгеновские <br> урологические системы»
+        </div>
+        <ul class="equipment__card-list">
+            <li>размер деки стола 76 Х 120 см;</li><li>перемещение стола в сторону головной части - 24 см, в сторону ножной части - 7 см;</li><li>продуманная система 4-стороннего доступа к пациенту для инвазивных процедур</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card3.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Комплекс рентгенографический <br> палатный передвижной»
+        </div>
+        <ul class="equipment__card-list">
+            <li>мобильность и маневренность комплекса</li><li>малый вес,</li><li>удобство в хранении и эксплуатации;</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card4.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Флюорограф <br> цифровой»
+        </div>
+        <ul class="equipment__card-list">
+            <li>широкое поле исследования до 42,5 см х 42,5 см;</li><li>сверхмалая доза при выполнении снимков;</li><li>изменяемое фокусное расстояние;</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+
+									</div>
+								</div>
+								<div class="swiper-btns">
+									<div class="swiper-button-prev">
+										<svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM17 3.5L1 3.5V4.5L17 4.5V3.5Z" fill="black"/>
+										</svg>
+									</div>
+									<div class="swiper-button-next">
+										<svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16.3536 4.35355C16.5488 4.15829 16.5488 3.84171 16.3536 3.64645L13.1716 0.464466C12.9763 0.269204 12.6597 0.269204 12.4645 0.464466C12.2692 0.659728 12.2692 0.976311 12.4645 1.17157L15.2929 4L12.4645 6.82843C12.2692 7.02369 12.2692 7.34027 12.4645 7.53553C12.6597 7.7308 12.9763 7.7308 13.1716 7.53553L16.3536 4.35355ZM0 4.5L16 4.5V3.5L0 3.5L0 4.5Z" fill="black"/>
+										</svg>
+									</div>
+								</div>
+                                <a href="" class="equipment__btn btn-green">Смотреть все оборудование</a>
+							</div>
+							<div class="equipment__cards-bottom">
+                                <div class="equipment__cards-title">Ультразвуковые сканеры</div>
+                                <div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card5.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 30»
+        </div>
+        <ul class="equipment__card-list">
+            <li>характеристики высшего класса и компактный дизайн;</li><li>клавиатура с полным</li><li>CW карандаш и многоплановый TE датчик;</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card6.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 40»
+        </div>
+        <ul class="equipment__card-list">
+            <li>размер деки стола 76 Х 120 см;</li><li>перемещение стола в сторону головной части - 24 см, в сторону ножной части - 7 см;</li><li>продуманная система 4-стороннего доступа к пациенту для инвазивных процедур</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card7.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 50»
+        </div>
+        <ul class="equipment__card-list">
+            <li>модульная архитектура, эргономичный дизайн и дружелюбный интерфейс;</li><li>9-дюймовый жидкокристаллический монитор;</li><li>многочастотные широкополосные датчики для разных областей применения</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="" class="equipment__card">
+    <div class="equipment__card-left">
+        <img src="img/equipment__card8.webp" alt="">
+    </div>
+    <div class="equipment__card-right">
+        <div class="equipment__card-title">
+            Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 70»
+        </div>
+        <ul class="equipment__card-list">
+            <li>непрерывная фокусировка на всю глубину сканирования (до 38 см)</li><li>компактность и маневренность системы, 19-21 дюймовый монитор</li><li>увеличение зоны интереса без потери разрешения</li>
+        </ul>
+        <span class="equipment__card-link" href="">
+            Подробнее
+        </span>
+    </div>
+</a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-btns">
+									<div class="swiper-button-prev">
+										<svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM17 3.5L1 3.5V4.5L17 4.5V3.5Z" fill="black"/>
+										</svg>
+									</div>
+									<div class="swiper-button-next">
+										<svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16.3536 4.35355C16.5488 4.15829 16.5488 3.84171 16.3536 3.64645L13.1716 0.464466C12.9763 0.269204 12.6597 0.269204 12.4645 0.464466C12.2692 0.659728 12.2692 0.976311 12.4645 1.17157L15.2929 4L12.4645 6.82843C12.2692 7.02369 12.2692 7.34027 12.4645 7.53553C12.6597 7.7308 12.9763 7.7308 13.1716 7.53553L16.3536 4.35355ZM0 4.5L16 4.5V3.5L0 3.5L0 4.5Z" fill="black"/>
+										</svg>
+									</div>
+								</div>
+                                <a href="" class="equipment__btn btn-green">Смотреть все сканеры</a>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="equipment__img">
+					<img src="img/proton.png" alt="">
+				</div>
+			</section>
+			<div class="bg-block">
+				<img class="bg-block__img" src="img/bg-block2.webp" alt="">
+				<img class="bg-block__img2" src="img/bg-block-left.webp" alt="">
+				<img class="bg-block__img3" src="img/bg-block-right.webp" alt="">
+				<section class="about">
+					<div class="container">
+						<h2 class="about__title display2">
+							<span>о ко</span>мпании
+						</h2>
+						<div class="about__inner">
+							<div class="about__desc1">
+								Общество с ограниченной ответственностью «Производственно - монтажное предприятие «ПРОТОН» производит рентгенодиагностические комплексы «КРД - «ПРОТОН» на одно, два или три рабочих места, телеуправляемые системы.
+							</div>
+							<div class="about__desc2">
+								Готовятся к выпуску ультразвуковые сканеры «УЗИ - «ПРОТОН» и цифровой флюорограф. Предприятие занимается поставкой и установкой целого спектра аппаратов: ангиографических систем, гамма-камер, ОФЭКТ (эмиссионные компьютерные томографы - SPECT), ОФЭКТ/КТ...
+							</div>
+							<div class="about__nav">
+								<a href="" class="about__btn btn-green">
+									<span>Читать далее</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="certificates">
+					<div class="container">
+						<div class="certificates__inner">
+							<div class="certificates__top">
+								<div class="certificates__title">
+									<span>Лицензии и сертификаты</span>
+								</div>
+								<div class="certificates__nav">
+									<div class="swiper-button swiper-button-prev">
+										<img src="img/prev.svg" alt="">
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<img src="img/next.svg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate.webp" alt="">
+        </div>
+    </a>
+</div>
+
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate2.webp" alt="">
+        </div>
+    </a>
+</div>
+
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate3.webp" alt="">
+        </div>
+    </a>
+</div>
+
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate4.webp" alt="">
+        </div>
+    </a>
+</div>
+
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate5.webp" alt="">
+        </div>
+    </a>
+</div>
+
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate3.webp" alt="">
+        </div>
+    </a>
+</div>
+
+									<div class="certificate-card swiper-slide">
+    <a href="" class="certificate-card__img">
+        <div class="certificate-card__img-wrap">
+            <img src="img/certificate2.webp" alt="">
+        </div>
+    </a>
+</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="exhibition">
+					<div class="container">
+						<h2 class="exhibition__title display2">
+							<span>выс</span>тавки
+						</h2>
+						<div class="exhibition__grid">
+							<a href="" class="exhibition-card">
+    <div class="exhibition-card__img">
+        <img src="img/exhibition.jpg" alt="">
+    </div>
+    <div class="exhibition-card__content">
+        <div class="exhibition-card__date">
+            5-9 декабря 2016 
+        </div>
+        <div class="exhibition-card__title">
+            Выставка <br> «ЗДРАВООХРАНЕНИЕ-2016»
+        </div>
+    </div>
+</a>
+
+							<a href="" class="exhibition-card">
+    <div class="exhibition-card__img">
+        <img src="img/exhibition2.jpg" alt="">
+    </div>
+    <div class="exhibition-card__content">
+        <div class="exhibition-card__date">
+            15 декабря 2016 
+        </div>
+        <div class="exhibition-card__title">
+            Рабочее совещание «Вопросы технического оснащения... 
+        </div>
+    </div>
+</a>
+
+							<a href="" class="exhibition-card">
+    <div class="exhibition-card__img">
+        <img src="img/exhibition3.jpg" alt="">
+    </div>
+    <div class="exhibition-card__content">
+        <div class="exhibition-card__date">
+            29-31 мая 2013 год 
+        </div>
+        <div class="exhibition-card__title">
+            МЕДиагностика - 2013
+        </div>
+    </div>
+</a>
+
+						</div>
+						<div class="exhibition__nav">
+							<a href="" class="exhibition__btn btn-green">
+								<span>Смотреть все мероприятия</span>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="reviews">
+					<div class="container">
+						<div class="reviews__inner">
+							<div class="reviews__top">
+								<h2 class="reviews__title display2"><span>отзы</span>вы</h2>
+								<button class="reviews__btn btn-green">Смотреть все отзывы</button>
+								<div class="reviews__nav">
+									<div class="swiper-button swiper-button-prev">
+										<img src="img/prev.svg" alt="">
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<img src="img/next.svg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slider">
+								<div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<a href="img/reviews.webp" class="reviews__slide-img" data-fancybox="gallery2">
+												<img src="img/reviews.webp" alt="">
+											</a>
+											<div class="reviews__slide-desc">Айхальская городская больница</div>
+										</div>
+										<div class="swiper-slide">
+											<a href="img/reviews2.webp" class="reviews__slide-img" data-fancybox="gallery2">
+												<img src="img/reviews2.webp" alt="">
+											</a>
+											<div class="reviews__slide-desc">106 гвардейская воздушно-десантная...</div>
+										</div>
+										<div class="swiper-slide">
+											<a href="img/reviews3.webp" class="reviews__slide-img" data-fancybox="gallery2">
+												<img src="img/reviews3.webp" alt="">
+											</a>
+											<div class="reviews__slide-desc">ООО ПФ «Тулапроцесс»</div>
+										</div>
+										<div class="swiper-slide">
+											<a href="img/reviews4.webp" class="reviews__slide-img" data-fancybox="gallery2">
+												<img src="img/reviews4.webp" alt="">
+											</a>
+											<div class="reviews__slide-desc">НПО «ПОЛЮС»</div>
+										</div>
+										<div class="swiper-slide">
+											<a href="img/reviews.webp" class="reviews__slide-img" data-fancybox="gallery2">
+												<img src="img/reviews.webp" alt="">
+											</a>
+											<div class="reviews__slide-desc">Айхальская городская больница</div>
+										</div>
+										<div class="swiper-slide">
+											<a href="img/reviews2.webp" class="reviews__slide-img" data-fancybox="gallery2">
+												<img src="img/reviews2.webp" alt="">
+											</a>
+											<div class="reviews__slide-desc">106 гвардейская воздушно-десантная...</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<section class="contacts">
+				<div id="map" class="map"></div>
+				<div class="container">
+					<div class="contacts__inner">
+						<div class="contacts__content">
+							<h2 class="contacts__title display2"><span>кон</span>такты</h2>
+							<div class="contacts__socials">
+								<div class="contacts__social">
+									<div class="contacts__social-icon">
+										<img src="img/tel2.svg" alt="">
+									</div>
+									<a href="" class="contacts__social-desc">
+										<div class="contacts__social-title">Телефон</div>
+										<div class="contacts__social-text">8 (4872) 25-05-87</div>
+									</a>
+								</div>
+								<a href="" class="contacts__social">
+									<div class="contacts__social-icon">
+										<img src="img/location.svg" alt="">
+									</div>
+									<div class="contacts__social-desc">
+										<div class="contacts__social-title">Адрес</div>
+										<div class="contacts__social-text">г. Тула, ул. Болдина, д.98а</div>
+									</div>
+								</a>
+								<a href="" class="contacts__social">
+									<div class="contacts__social-icon">
+										<img src="img/mail2.svg" alt="">
+									</div>
+									<div class="contacts__social-desc">
+										<div class="contacts__social-title">Почта</div>
+										<div class="contacts__social-text">proton_tula@mail.ru</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<img class="footer__img-bg" src="img/footer-bg.webp" alt="">
+<img class="footer__img-bg2" src="img/footer-bg2.webp" alt="">
+<img class="footer__img-bg3" src="img/footer-bg3.webp" alt="">
+<div class="container">
+    <div class="footer__inner">
+        <button class="up">
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.72301 1.45312C8.49281 0.119791 10.4173 0.119791 11.1871 1.45312L18.5877 14.2713C19.3575 15.6046 18.3952 17.2713 16.8556 17.2713H2.05448C0.514879 17.2713 -0.447371 15.6046 0.32243 14.2713L7.72301 1.45312Z" fill="white"/>
+            </svg>
+        </button>
+        <div class="footer__items">
+            <div class="footer__item footer__item--flex">
+                <a href="" class="footer__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <ul class="footer__list">
+                    <li><a href="">главная</a></li>
+                    <li><a href="">о компании</a></li>
+                    <li><a href="">оборудование</a></li>
+                    <li><a href="">услуги</a></li>
+                    <li><a href="">цифровая модернизация</a></li>
+                    <li><a href="">контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__subtitle">Рентгеновское <br> оборудование</div>
+                <ul class="footer__list2">
+                    <li><a href="">Комплекс рентгеновский диагностический «КРД–«ПРОТОН»</a></li>
+                    <li><a href="">Комплекс рентгенографический палатный передвижной</a></li>
+                    <li><a href="">Рентгеновские урологические системы</a></li>
+                    <li><a href="">Флюорограф цифровой</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__subtitle">Ультразвуковые <br> сканеры</div>
+                <ul class="footer__list2">
+                    <li><a href="">Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 30»</a></li>
+                    <li><a href="">Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 40»</a></li>
+                    <li><a href="">Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 50»</a></li>
+                    <li><a href="">Комплекс ультразвуковой диагностический «УЗИ – «ПРОТОН - 70»</a></li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item--100">
+                <div class="footer__brevis">
+                    <div class="footer__brevis-img">
+                        <img src="img/footer-logo.webp" alt="">
+                    </div>
+                    <div class="footer__brevis-desc">
+                        Разработка корпоративного сайта <br>
+                        <a href="">интернет-агентство BREVIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		</footer>
+	</div>
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+	<script type="text/javascript">
+    ymaps.ready(init);
+
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [54.172905, 37.572576],
+            zoom: 15
+        });
+
+        var myPlacemark = new ymaps.Placemark([54.172909, 37.570876], null, {
+            iconLayout: 'default#image',
+            iconImageHref: "img/map-location.svg",
+            iconImageSize: [110, 124],
+            iconImageOffset: [-15, -44]
+        });
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable('scrollZoom');
+
+    }
+</script>
+</body>
+
+</html>
