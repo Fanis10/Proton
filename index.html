@@ -202,6 +202,7 @@
 				<img class="equipment__img-bg" src="img/equipment-bg.webp" alt="">
 				<img class="equipment__img-bg2" src="img/equipment-bg.webp" alt="">
 				<img class="equipment__img-bg3" src="img/bg-block5.webp" alt="">
+				<img class="equipment__img-bg4" src="img/bg-block3.webp" alt="">
 				<div class="container">
 					<div class="equipment__inner">
 						<h2 class="equipment__title display2"><span>наше</span> оборудование</h2>
@@ -506,8 +507,11 @@
 						<h2 class="exhibition__title display2">
 							<span>выс</span>тавки
 						</h2>
-						<div class="exhibition__grid">
-							<a href="" class="exhibition-card">
+						<div class="exhibition__slider">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="" class="exhibition-card">
     <div class="exhibition-card__img">
         <img src="img/exhibition.jpg" alt="">
     </div>
@@ -521,7 +525,9 @@
     </div>
 </a>
 
-							<a href="" class="exhibition-card">
+									</div>
+									<div class="swiper-slide">
+										<a href="" class="exhibition-card">
     <div class="exhibition-card__img">
         <img src="img/exhibition2.jpg" alt="">
     </div>
@@ -535,7 +541,9 @@
     </div>
 </a>
 
-							<a href="" class="exhibition-card">
+									</div>
+									<div class="swiper-slide">
+										<a href="" class="exhibition-card">
     <div class="exhibition-card__img">
         <img src="img/exhibition3.jpg" alt="">
     </div>
@@ -549,6 +557,57 @@
     </div>
 </a>
 
+									</div>
+									<div class="swiper-slide">
+										<a href="" class="exhibition-card">
+    <div class="exhibition-card__img">
+        <img src="img/exhibition.jpg" alt="">
+    </div>
+    <div class="exhibition-card__content">
+        <div class="exhibition-card__date">
+            5-9 декабря 2016 
+        </div>
+        <div class="exhibition-card__title">
+            Выставка <br> «ЗДРАВООХРАНЕНИЕ-2016»
+        </div>
+    </div>
+</a>
+
+									</div>
+									<div class="swiper-slide">
+										<a href="" class="exhibition-card">
+    <div class="exhibition-card__img">
+        <img src="img/exhibition2.jpg" alt="">
+    </div>
+    <div class="exhibition-card__content">
+        <div class="exhibition-card__date">
+            15 декабря 2016 
+        </div>
+        <div class="exhibition-card__title">
+            Рабочее совещание «Вопросы технического оснащения... 
+        </div>
+    </div>
+</a>
+
+									</div>
+									<div class="swiper-slide">
+										<a href="" class="exhibition-card">
+    <div class="exhibition-card__img">
+        <img src="img/exhibition3.jpg" alt="">
+    </div>
+    <div class="exhibition-card__content">
+        <div class="exhibition-card__date">
+            29-31 мая 2013 год 
+        </div>
+        <div class="exhibition-card__title">
+            МЕДиагностика - 2013
+        </div>
+    </div>
+</a>
+
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="exhibition__nav">
 							<a href="" class="exhibition__btn btn-green">
@@ -562,6 +621,11 @@
 						<div class="reviews__inner">
 							<div class="reviews__top">
 								<h2 class="reviews__title display2"><span>отзы</span>вы</h2>
+								<span class="reviews__line">
+									<svg width="673" height="3" viewBox="0 0 673 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<line y1="1.5" x2="673" y2="1.5" stroke="#E2E2E2" stroke-width="3"/>
+									</svg>
+								</span>
 								<button class="reviews__btn btn-green">Смотреть все отзывы</button>
 								<div class="reviews__nav">
 									<div class="swiper-button swiper-button-prev">
@@ -664,15 +728,10 @@
 <img class="footer__img-bg3" src="img/footer-bg3.webp" alt="">
 <div class="container">
     <div class="footer__inner">
-        <button class="up">
-            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.72301 1.45312C8.49281 0.119791 10.4173 0.119791 11.1871 1.45312L18.5877 14.2713C19.3575 15.6046 18.3952 17.2713 16.8556 17.2713H2.05448C0.514879 17.2713 -0.447371 15.6046 0.32243 14.2713L7.72301 1.45312Z" fill="white"/>
-            </svg>
-        </button>
         <div class="footer__items">
             <div class="footer__item footer__item--flex">
                 <a href="" class="footer__logo">
-                    <img src="img/logo.png" alt="">
+                    <img src="img/logo2.png" alt="">
                 </a>
                 <ul class="footer__list">
                     <li><a href="">главная</a></li>
@@ -719,6 +778,13 @@
 		</footer>
 
 	</div>
+
+	<button class="up">
+		<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M7.72301 1.45312C8.49281 0.119791 10.4173 0.119791 11.1871 1.45312L18.5877 14.2713C19.3575 15.6046 18.3952 17.2713 16.8556 17.2713H2.05448C0.514879 17.2713 -0.447371 15.6046 0.32243 14.2713L7.72301 1.45312Z" fill="white"/>
+		</svg>
+	</button>
+
 	<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 
